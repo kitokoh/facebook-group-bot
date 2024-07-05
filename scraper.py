@@ -86,7 +86,7 @@ class Scraper (WebScraping):
             
             self.refresh_selenium()
             self.click_js(selectors["submit"])
-            sleep (WAIT_MIN*60)
+            sleep (WAIT_MIN*2)
             
             # Save register of post
             posts_done.append ([group, post])

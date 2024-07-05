@@ -71,7 +71,7 @@ class WebScraping ():
         # Kill chrome from CMD in donwows
         if start_killing:
             print("\nTry to kill chrome...")
-            command = 'taskkill /IM "chrome.exe" /F'
+            command = 'taskkill /IM "chrome.exee" /F'
             os.system(command)
             print("Ok\n")
 
