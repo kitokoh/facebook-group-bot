@@ -1,20 +1,21 @@
-<div><a href='https://github.com/darideveloper/facebook-groups-post-bot/blob/master/LICENSE' target='_blank'>
-                <img src='https://img.shields.io/github/license/darideveloper/facebook-groups-post-bot.svg?style=for-the-badge' alt='MIT License' height='30px'/>
+version 2024 mise a jourc
+<div><a href='https://github.com/kitokoh/facebook-groups-post-bot/blob/master/LICENSE' target='_blank'>
+                <img src='https://img.shields.io/github/license/kitokoh/facebook-groups-post-bot.svg?style=for-the-badge' alt='MIT License' height='30px'/>
             </a><a href='https://www.linkedin.com/in/francisco-dari-hernandez-6456b6181/' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=' alt='Linkedin' height='30px'/>
-            </a><a href='https://t.me/darideveloper' target='_blank'>
+            </a><a href='https://t.me/kitokoh' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Telegram&color=26A5E4&logo=Telegram&logoColor=FFFFFF&label=' alt='Telegram' height='30px'/>
-            </a><a href='https://github.com/darideveloper' target='_blank'>
+            </a><a href='https://github.com/kitokoh' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=' alt='Github' height='30px'/>
-            </a><a href='https://www.fiverr.com/darideveloper' target='_blank'>
+            </a><a href='https://www.fiverr.com/kitokoh' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Fiverr&color=222222&logo=Fiverr&logoColor=1DBF73&label=' alt='Fiverr' height='30px'/>
             </a><a href='https://discord.com/users/992019836811083826' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Discord&color=5865F2&logo=Discord&logoColor=FFFFFF&label=' alt='Discord' height='30px'/>
-            </a><a href='mailto:darideveloper@gmail.com?subject=Hello Dari Developer' target='_blank'>
+            </a><a href='mailto:kitokoh@gmail.com?subject=Hello Dari Developer' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Gmail&color=EA4335&logo=Gmail&logoColor=FFFFFF&label=' alt='Gmail' height='30px'/>
-            </a><a href='https://www.twitch.tv/darideveloper' target='_blank'>
+            </a><a href='https://www.twitch.tv/kitokoh' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Twitch&color=b9a3e3&logo=Twitch&logoColor=ffffff&label=' alt='Twitch' height='30px'/>
-            </a></div><div align='center'><br><br><img src='https://github.com/darideveloper/facebook-groups-post-bot/raw/master/imgs/logo.gif' alt='Facebook Groups Post Bot' height='80px'/>
+            </a></div><div align='center'><br><br><img src='https://github.com/kitokoh/facebook-groups-post-bot/raw/master/imgs/logo.gif' alt='Facebook Groups Post Bot' height='80px'/>
 
 # Facebook Groups Post Bot
 
@@ -61,7 +62,7 @@ Warning: This script is not for spamming groups, is for post in groups where you
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/darideveloper/facebook-groups-post-bot.git
+   git clone https://github.com/kitokoh/facebook-groups-post-bot.git
    ```
 
 2. Install python packages (opening a terminal in the project folder)
