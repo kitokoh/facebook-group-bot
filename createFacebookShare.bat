@@ -41,25 +41,33 @@ ipconfig | findstr IPv4
 ipconfig | findstr IPv6
 
 @echo off
-cd /d D:\bons\Thefbkgrupshare
-call git clone https://github.com/darideveloper/facebook-groups-post-bot botSutolcer
-cd /d D:\bons\Thefbkgrupshare\botSutolcer
+cd /d C:\
+call mkdir bons
+cd /d C:\bons
+call mkdir Thefbkgrupshare 
+cd /d C:\Users\hp\Downloads
+call mkdir fbkGrupimages
+
+cd /d C:\bons\Thefbkgrupshare
+call git clone https://github.com/kitokoh/facebook-group-bot botSutolcer
+cd /d C:\bons\Thefbkgrupshare\botSutolcer
 call python -m pip install -r requirements.txt 
 call python -m venv botSutolcerEnv
-call copy d:\bons\Thefbkgrupshare\shareFarmoos\.env d:\bons\Thefbkgrupshare\botSutolcer\.env
-call copy d:\bons\Thefbkgrupshare\shareFarmoos\data.json d:\bons\Thefbkgrupshare\botSutolcer\data.json
+call copy C:\bons\Thefbkgrupshare\botSutolcer\sample.env C:\bons\Thefbkgrupshare\botSutolcer\.env
+call copy C:\bons\Thefbkgrupshare\botSutolcer\sample.data.json C:\bons\Thefbkgrupshare\botSutolcer\data.json
 
-call copy d:\bons\gESpROJET\bots\marketingBot\doorShareBot.bat d:\bons\gESpROJET\bots\marketingBot\botSutolcerShare.bat
-call copy d:\bons\gESpROJET\bots\saveGroup\doorShareBot.bat d:\bons\gESpROJET\bots\saveGroup\botSutolcerGrp.bat
+call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBot.bat C:\Users\hp\Desktop\botSutolcerShare.bat
+call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBot.bat C:\Users\hp\Desktop\botSutolcerGrp.bat
 
-cd /d D:\bons\fbkGrupimages
+cd /d C:\Users\hp\Downloads\fbkGrupimages
 call mkdir botSutolcer
 
 
-cd /d D:\bons\Thefbkgrupshare\botSutolcer\Scripts
+cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
+C:\bons\Thefbkgrupshare\botSutolcer
 call activate
-cd /d D:\bons\Thefbkgrupshare\botSutolcer
- python __save_groups__.py
+cd /d C:\bons\Thefbkgrupshare\botSutolcer
+ python _save_groups_.py
 pause
 @echo off    
 :: cmd /k "cd /d C:\Users\ibrahim\Downloads\system\botfork"
@@ -67,7 +75,7 @@ pause
 
 
  :: #         f   f
-:: cmd /k "cd /d D:\FFmpeg"
+:: cmd /k "cd /d C:\FFmpeg"
 timeout 10
 
 
