@@ -67,7 +67,7 @@ cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
 C:\bons\Thefbkgrupshare\botSutolcer
 call activate
 cd /d C:\bons\Thefbkgrupshare\botSutolcer
- python _save_groups_.py
+ python __save_groups__.py
 pause
 @echo off    
 :: cmd /k "cd /d C:\Users\ibrahim\Downloads\system\botfork"

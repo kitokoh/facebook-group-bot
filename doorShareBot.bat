@@ -42,9 +42,9 @@ ipconfig | findstr IPv6
 
 @echo off
 
-cd /d D:\bons\Thefbkgrupshare\shareDoor\Scripts
+cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
 call activate
-cd /d D:\bons\Thefbkgrupshare\shareDoor
+cd /d C:\bons\Thefbkgrupshare\botSutolcer
  python __post_in_groups__.py
 pause
 @echo off    
@@ -60,5 +60,3 @@ timeout 10
 
 
 PAUSE
-
-
