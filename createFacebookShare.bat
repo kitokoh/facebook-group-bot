@@ -45,29 +45,37 @@ cd /d C:\
 call mkdir bons
 cd /d C:\bons
 call mkdir Thefbkgrupshare 
-cd /d C:\Users\hp\Downloads
+cd /d C:\
+call mkdir image 
+cd /d C:\image
 call mkdir fbkGrupimages
+cd /d C:\image\fbkGrupimages
+call mkdir botSutolcer
+
 
 cd /d C:\bons\Thefbkgrupshare
 call git clone https://github.com/kitokoh/facebook-group-bot botSutolcer
 cd /d C:\bons\Thefbkgrupshare\botSutolcer
-call python -m pip install -r requirements.txt 
 call python -m venv botSutolcerEnv
+cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
+call activate
+cd /d c:\bons\Thefbkgrupshare\botSutolcer
+call python -m pip install -r requirements.txt 
+call pip install selenium
+
+
 call copy C:\bons\Thefbkgrupshare\botSutolcer\sample.env C:\bons\Thefbkgrupshare\botSutolcer\.env
 call copy C:\bons\Thefbkgrupshare\botSutolcer\sample.data.json C:\bons\Thefbkgrupshare\botSutolcer\data.json
 
-call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBot.bat C:\Users\hp\Desktop\botSutolcerShare.bat
-call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBot.bat C:\Users\hp\Desktop\botSutolcerGrp.bat
+call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBot.bat C:.\botSutolcerShare.bat
+call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBotsv.bat C:.\botSutolcerGrp.bat
 
-cd /d C:\Users\hp\Downloads\fbkGrupimages
-call mkdir botSutolcer
 
 
 cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
-C:\bons\Thefbkgrupshare\botSutolcer
 call activate
-cd /d C:\bons\Thefbkgrupshare\botSutolcer
- python __save_groups__.py
+cd /d c:\bons\Thefbkgrupshare\botSutolcer
+ python _save_groups_.py
 pause
 @echo off    
 :: cmd /k "cd /d C:\Users\ibrahim\Downloads\system\botfork"
