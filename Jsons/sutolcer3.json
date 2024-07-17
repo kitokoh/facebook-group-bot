@@ -1,6 +1,3 @@
-Voici le fichier JSON avec les textes en turc, chaque ligne traduite et sans numérotation, conforme aux règles que vous avez fournies :
-
-```json
 {
   "posts": [
     {
@@ -92,9 +89,7 @@ Voici le fichier JSON avec les textes en turc, chaque ligne traduite et sans num
       "image": "C:\\image\\fbkGrupimages\\botSutolcer\\22.jpeg"
     },
     {
-      "text": "KPS Otomotiv ile çiftliğinizde verimliliği artırın. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak
-
- için süt sağma çözümleri.",
+      "text": "KPS Otomotiv ile çiftliğinizde verimliliği artırın. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak  için süt sağma çözümleri.",
       "image": "C:\\image\\fbkGrupimages\\botSutolcer\\23.jpeg"
     },
     {
@@ -187,9 +182,7 @@ Voici le fichier JSON avec les textes en turc, chaque ligne traduite et sans num
     },
     {
       "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-      "image": "C:\\image\\fbkGrupimages\\botSutol
-
-cer\\46.jpeg"
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\46.jpeg"
     },
     {
       "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
@@ -208,207 +201,204 @@ cer\\46.jpeg"
       "image": "C:\\image\\fbkGrupimages\\botSutolcer\\50.jpeg"
     },
     {
-        "posts": [
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\51.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\52.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\53.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\54.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\55.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\56.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\57.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\58.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\59.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\60.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\61.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\62.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\63.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\64.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\65.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\66.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\67.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\68.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\69.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\70.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\71.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\72.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\73.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\74.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\75.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\76.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\77.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\78.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\79.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\80.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\81.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\82.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\83.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\84.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\85.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\86.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\87.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\88.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\89.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\90.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\91.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\92.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\93.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\94.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\95.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\96.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\97.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\98.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\99.jpeg"
-          },
-          {
-            "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
-            "image": "C:\\image\\fbkGrupimages\\botSutolcer\\100.jpeg"
-          }
-        ]
-      }
-      
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\51.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\52.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\53.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\54.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\55.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\56.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\57.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\58.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\59.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\60.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\61.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\62.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\63.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\64.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\65.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\66.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\67.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\68.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\69.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\70.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\71.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\72.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\73.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\74.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\75.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\76.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\77.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\78.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\79.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\80.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\81.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\82.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\83.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\84.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\85.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\86.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\87.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\88.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\89.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\90.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\91.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\92.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\93.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\94.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile yüksek kaliteli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\95.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için yenilikçi süt sağma çözümleri. KPS Otomotiv ile yenilikçi süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde yenilikçi süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\96.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\97.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv: Çiftlikler için güvenilir süt sağma çözümleri. KPS Otomotiv ile güvenilir süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde güvenilir süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\98.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile çiftliğinizin verimliliğini artırın. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile verimliliği artırmak için süt sağma çözümleri.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\99.jpeg"
+    },
+    {
+      "text": "KPS Otomotiv ile süt sağma sürecinizi iyileştirin. KPS Otomotiv ile verimli süt sağma ekipmanları. KPS Otomotiv ile çiftliğinizde süt sağma sürecinizi iyileştirin.",
+      "image": "C:\\image\\fbkGrupimages\\botSutolcer\\100.jpeg"
+    }
+  ]
+}
