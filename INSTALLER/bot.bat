@@ -50,31 +50,30 @@ call mkdir image
 cd /d C:\image
 call mkdir fbkGrupimages
 cd /d C:\image\fbkGrupimages
-call mkdir botSutolcer
+call mkdir whattsBot
 
 
 cd /d C:\bons\Thefbkgrupshare
-call git clone https://github.com/kitokoh/facebook-group-bot botSutolcer
-cd /d C:\bons\Thefbkgrupshare\botSutolcer
-call python -m venv botSutolcerEnv
-cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
+call git clone https://github.com/kitokoh/facebook-group-bot whattsBot
+cd /d C:\bons\Thefbkgrupshare\whattsBot
+call python -m venv whattsBotEnv
+cd /d C:\bons\Thefbkgrupshare\whattsBot\whattsBotEnv\Scripts
 call activate
-cd /d c:\bons\Thefbkgrupshare\botSutolcer
+cd /d c:\bons\Thefbkgrupshare\whattsBot
 call python -m pip install -r requirements.txt 
-call pip install selenium
 
 
-call copy C:\bons\Thefbkgrupshare\botSutolcer\sample.env C:\bons\Thefbkgrupshare\botSutolcer\.env
-call copy C:\bons\Thefbkgrupshare\botSutolcer\sample.data.json C:\bons\Thefbkgrupshare\botSutolcer\data.json
+call copy C:\bons\Thefbkgrupshare\whattsBot\sample.env C:\bons\Thefbkgrupshare\whattsBot\.env
+call copy C:\bons\Thefbkgrupshare\whattsBot\sample.data.json C:\bons\Thefbkgrupshare\whattsBot\data.json
 
-call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBot.bat C:.\botSutolcerShare.bat
-call copy C:\bons\Thefbkgrupshare\botSutolcer\doorShareBotsv.bat C:.\botSutolcerGrp.bat
+call copy C:\bons\Thefbkgrupshare\whattsBot\doorShareBot.bat C:.\whattsBotShare.bat
+call copy C:\bons\Thefbkgrupshare\whattsBot\doorShareBotsv.bat C:.\whattsBotGrp.bat
 
 
 
-cd /d C:\bons\Thefbkgrupshare\botSutolcer\botSutolcerEnv\Scripts
+cd /d C:\bons\Thefbkgrupshare\whattsBot\whattsBotEnv\Scripts
 call activate
-cd /d c:\bons\Thefbkgrupshare\botSutolcer
+cd /d c:\bons\Thefbkgrupshare\whattsBot
  python _save_groups_.py
 pause
 @echo off    
