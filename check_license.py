@@ -45,13 +45,13 @@ def get_serial_number():
         return None
 
 def check_mac_address(license_mac):
-    """Vérifie si l'adresse MAC correspond à celle du client."""
-    # Utiliser une adresse MAC fixe
-    fixed_mac = "E4-42-A6-3A-AC"
+    """Vérifie si l'adresse MAC correspond à celle du client, en utilisant une adresse MAC fixe."""
+    fixed_mac = "E4-42-A6-3A-AC"  # Adresse MAC fixe
 
-    # Comparer l'adresse MAC fixe à celle de la licence
+    # Comparer l'adresse MAC fixe avec celle de la licence
     print(f"Adresse MAC fixe : {fixed_mac}, MAC dans la licence : {license_mac}")
-
+    
+    # Vérifier si les deux correspondent
     return fixed_mac == license_mac
 
 def check_serial_number(license_serial):
@@ -96,7 +96,7 @@ def is_license_valid():
         print("Erreur : Le numéro de série ne correspond pas.")
         return False
     
-    # Vérifier l'adresse MAC
+    # Vérifier l'adresse MAC (en utilisant l'adresse fixe)
     if not check_mac_address(license_mac):
         print(f"Erreur : L'adresse MAC ne correspond pas.")
         return False
