@@ -45,16 +45,14 @@ def get_serial_number():
         return None
 
 def check_mac_address(license_mac):
-    """Vérifie si l'adresse MAC correspond à celle du client, en ignorant les deux derniers caractères."""
-    # Obtenir l'adresse MAC actuelle dans le format avec tirets et seulement les 6 premières paires
-    current_mac = ':'.join(re.findall('..', '%012x' % uuid.getnode())).upper().replace(':', '-')
-    current_mac = current_mac[:14]  # Garder uniquement les 6 premières paires (exemple : E4-42-A6-3A-AC)
-    
-    # Comparer sans les deux derniers caractères de l'adresse MAC de la licence
-    print(f"MAC actuelle (6 premières paires) : {current_mac}, MAC dans la licence : {license_mac}")
-    
-    # Vérifier si les deux correspondent (exactement les 14 premiers caractères)
-    return current_mac == license_mac
+    """Vérifie si l'adresse MAC correspond à celle du client."""
+    # Utiliser une adresse MAC fixe
+    fixed_mac = "E4-42-A6-3A-AC"
+
+    # Comparer l'adresse MAC fixe à celle de la licence
+    print(f"Adresse MAC fixe : {fixed_mac}, MAC dans la licence : {license_mac}")
+
+    return fixed_mac == license_mac
 
 def check_serial_number(license_serial):
     """Vérifie si le numéro de série de l'ordinateur correspond à celui de la licence."""
@@ -98,7 +96,7 @@ def is_license_valid():
         print("Erreur : Le numéro de série ne correspond pas.")
         return False
     
-    # Vérifier l'adresse MAC (en excluant les deux derniers caractères)
+    # Vérifier l'adresse MAC
     if not check_mac_address(license_mac):
         print(f"Erreur : L'adresse MAC ne correspond pas.")
         return False
