@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 # Fonction pour envoyer l'e-mail
 def send_email(client_email, sender_password, subject, message_body):
     # Informations sur le compte e-mail expéditeur
-    sender_email = "abullah@turknovatech.com"
+    sender_email = "info@turknovatech.com"
 
     # Configuration du serveur SMTP
     smtp_server = "mail.turknovatech.com"
