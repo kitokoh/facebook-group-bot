@@ -5,10 +5,11 @@ import sys  # Pour récupérer les arguments de la ligne de commande
 
 # Fonction pour envoyer l'e-mail
 def send_email(client_email, sender_password, subject, message_body):
-    sender_email = "info@turknovatech.com"
-    smtp_server = "mail.turknovatech.com"
-    smtp_port = 587
+    sender_email = "info@turknovatech.com"  # Adresse e-mail de l'expéditeur
+    smtp_server = "mail.turknovatech.com"  # Serveur SMTP
+    smtp_port = 587  # Port SMTP
 
+    # Configuration du message e-mail
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = client_email
@@ -17,13 +18,13 @@ def send_email(client_email, sender_password, subject, message_body):
 
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
-        server.starttls()
-        server.login(sender_email, sender_password)
-        server.sendmail(sender_email, client_email, msg.as_string())
+        server.starttls()  # Sécuriser la connexion
+        server.login(sender_email, sender_password)  # Connexion avec l'e-mail expéditeur
+        server.sendmail(sender_email, client_email, msg.as_string())  # Envoi de l'e-mail
         server.quit()
         print("E-mail envoyé avec succès à", client_email)
     except Exception as e:
-        print(f"Erreur lors de l'envoi de l'e-mail: {e}")
+        print(f"Erreur lors de l'envoi de l'e-mail : {e}")
 
 # Fonction pour lire l'adresse e-mail depuis le fichier info.txt
 def get_client_email():
@@ -31,7 +32,7 @@ def get_client_email():
         with open(r'C:\bon\info.txt', 'r') as file:
             for line in file:
                 if line.startswith("Email:"):
-                    email = line.split("Email:")[1].strip()
+                    email = line.split("Email:")[1].strip()  # Extraire l'e-mail
                     return email
     except FileNotFoundError:
         print("Erreur : Le fichier info.txt n'a pas été trouvé.")
