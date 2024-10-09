@@ -76,7 +76,7 @@ def is_license_valid():
     
     # Extraire et valider la licence
     validity_days, license_serial, license_mac, license_date = parse_license(license_content)
-    print(f"Licence extraite : jours = {validity_days}, série = {license_serial}, MAC = {license_mac}, date = {license_date}")
+    print(f"Licence  : jours = {validity_days}, code = {license_serial}, Mooc = {license_mac}, date = {license_date}")
 
     if validity_days is None or license_serial is None or license_mac is None or license_date is None:
         print("Erreur : Licence invalide.")

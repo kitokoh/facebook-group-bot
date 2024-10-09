@@ -24,8 +24,8 @@ def force_utf8_encoding(filepath):
         sys.exit(1)
 
 # Exemple : forcer l'encodage UTF-8 pour le fichier de licence
-license_file = 'chemin/vers/ton/fichier_de_licence.txt'
-force_utf8_encoding(license_file)
+#license_file = 'chemin/vers/ton/fichier_de_licence.txt'
+#  force_utf8_encoding(license_file)
 
 # Vérification de la licence avant de démarrer
 try:
