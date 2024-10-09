@@ -29,7 +29,7 @@ def parse_license(license_str):
     return None, None, None, None
 
 def get_serial_number():
-    """Essaie de récupérer le numéro de série via différentes méthodes."""
+    """Essaie de récupérer le num.soeurie via différentes méthodes."""
     try:
         serial_number = os.popen("wmic bios get serialnumber").read().strip().split("\n")[1].strip()
         if serial_number:
@@ -41,34 +41,34 @@ def get_serial_number():
         serial_number = os.popen("powershell (Get-WmiObject win32_bios).SerialNumber").read().strip()
         return serial_number
     except IndexError:
-        print("Erreur : Impossible de récupérer le numéro de série via PowerShell.")
+        print("Erreur : Impossible de recu num.soeurie  PowerShell.")
         return None
 
 def check_mac_address(license_mac):
-    """Vérifie si l'adresse MAC correspond à celle du client, en utilisant une adresse MAC fixe."""
+    """Vérifie si @ Mooc correspond à celle du client, en utilisant mooc.fix."""
     fixed_mac = "E4-42-A6-3A-AC"  # Adresse MAC fixe
 
     # Comparer l'adresse MAC fixe avec celle de la licence
-    print(f"Adresse MAC fixe : {fixed_mac}, MAC dans la licence : {license_mac}")
+    print(f"@ MAc.fix : {fixed_mac}, MAC dlicence : {license_mac}")
     
     # Vérifier si les deux correspondent
     return fixed_mac == license_mac
 
 def check_serial_number(license_serial):
-    """Vérifie si le numéro de série de l'ordinateur correspond à celui de la licence."""
+    """Vérifie si le num de soeurie de l'ordinateur correspond à celui de la licence."""
     serial_number = get_serial_number()
     if serial_number:
-        print(f"Numéro de série actuel : {serial_number}, Numéro de série dans la licence : {license_serial}")
+        print(f"Numsoeurie actuel : {serial_number}, Num.soeurie  : {license_serial}")
         return serial_number == license_serial
     else:
-        print("Erreur : Impossible de récupérer le numéro de série.")
+        print("Erreur : Impossible  recu.num soeurie.")
         return False
 
 def is_license_valid():
     """Vérifie si la licence est valide."""
     license_file = get_license_file()
     if not license_file:
-        print("Erreur : Le fichier de licence n'a pas été trouvé.")
+        print("Erreur : Le  licence noexist.")
         return False
 
     with open(license_file, 'r') as f:
@@ -93,12 +93,12 @@ def is_license_valid():
     
     # Vérifier le numéro de série de l'ordinateur
     if not check_serial_number(license_serial):
-        print("Erreur : Le numéro de série ne correspond pas.")
+        print("Erreur : Le numéro de soeurie nespt  pas equiv.")
         return False
     
     # Vérifier l'adresse MAC (en utilisant l'adresse fixe)
     if not check_mac_address(license_mac):
-        print(f"Erreur : L'adresse MAC ne correspond pas.")
+        print(f"Erreur : Le mooc @ ne equiv pas.")
         return False
     
     print(f"Licence valide jusqu'au {expiration_date}.")
