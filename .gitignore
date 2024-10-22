@@ -13,3 +13,4 @@ db.*
 *.pyc
 Users*
 .DS_Store
+.env
