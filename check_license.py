@@ -99,9 +99,9 @@ def check_user_name(license_user):
     print(f"Nom d'utilisateur actuel : {current_user}, Nom d'utilisateur de la licence : {license_user}")
     return current_user == license_user
 
-def is_license_valid(counter=1):
+def is_license_valid():
     """Vérifie si la licence est valide."""
-    license_file = get_license_file(counter)
+    license_file = get_license_file()
     if not license_file:
         print("Erreur : Le fichier de licence n'existe pas.")
         return False
