@@ -7,7 +7,7 @@ import base64
 import getpass  # Pour récupérer le nom de l'utilisateur actuel
 
 # Clé de chiffrement (doit être de 16, 24 ou 32 octets pour AES)
-ENCRYPTION_KEY = b'ma_cle_de_chiffrement'  # Assure-toi que la clé fait 16, 24 ou 32 octets.
+ENCRYPTION_KEY = b'vKkR0ItIS9fe01D9F40E5fFrLN8DX63knZyTeaGilfc'  # Assure-toi que la clé fait 16, 24 ou 32 octets.
 
 def decrypt_license(content):
     """Déchiffre le contenu chiffré de la licence."""
@@ -17,17 +17,27 @@ def decrypt_license(content):
     decrypted = unpad(cipher.decrypt(encrypted_content[16:]), AES.block_size)
     return decrypted.decode('utf-8')
 
-def get_license_file():
-    """Vérifie si le fichier de licence est dans le répertoire courant ou dans le répertoire au-dessus."""
+def generate_license_with_prefix(license_code, counter):
+    """Génère une licence avec un préfixe formaté."""
+    prefix = f"A{counter}9"  # Format du préfixe
+    return f"{prefix}{license_code}"
+
+def get_license_file(counter):
+    """Vérifie si le fichier de licence est dans le répertoire courant, au-dessus ou au-dessus du parent."""
     current_dir = os.getcwd()
     parent_dir = os.path.dirname(current_dir)
+    grandparent_dir = os.path.dirname(parent_dir)
+
+    # Générer le nom de fichier de licence avec le préfixe
+    license_file_name = generate_license_with_prefix('003', counter)  # '003' est un exemple
+    print(f"Tentative de recherche de : {license_file_name}")
+
+    # Vérifier les différents répertoires
+    for directory in [current_dir, parent_dir, grandparent_dir]:
+        license_path = os.path.join(directory, license_file_name)
+        if os.path.exists(license_path):
+            return license_path
     
-    license_file = os.path.join(current_dir, 'python.txt')
-    if not os.path.exists(license_file):
-        license_file = os.path.join(parent_dir, 'python.txt')
-    
-    if os.path.exists(license_file):
-        return license_file
     return None
 
 def parse_license(license_str):
@@ -45,7 +55,6 @@ def parse_license(license_str):
 
 def get_mac_address():
     """Récupère l'adresse MAC actuelle de la machine."""
-    # Remplace cette fonction avec la logique pour obtenir l'adresse MAC de l'utilisateur
     return "E4-42-A6-3A-AC"  # Adresse MAC fixe pour la comparaison
 
 def get_current_user_name():
@@ -92,9 +101,9 @@ def check_user_name(license_user):
     print(f"Nom d'utilisateur actuel : {current_user}, Nom d'utilisateur de la licence : {license_user}")
     return current_user == license_user
 
-def is_license_valid():
+def is_license_valid(counter):
     """Vérifie si la licence est valide."""
-    license_file = get_license_file()
+    license_file = get_license_file(counter)
     if not license_file:
         print("Erreur : Le fichier de licence n'existe pas.")
         return False
@@ -142,7 +151,10 @@ def is_license_valid():
 
 # Appel de la fonction pour vérifier la validité de la licence
 if __name__ == "__main__":
-    if is_license_valid():
-        print("Licence est valide.")
-    else:
-        print("Licence est invalide.")
+    # Tester avec différents compteurs
+    for counter in range(1, 5):  # Par exemple, pour les compteurs de 1 à 4
+        print(f"Vérification de la licence avec le compteur : {counter}")
+        if is_license_valid(counter):
+            print("Licence est valide.")
+        else:
+            print("Licence est invalide.")
