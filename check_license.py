@@ -72,22 +72,10 @@ def get_serial_number():
     
     return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else None
 
-def get_mac_address():
-    """Récupère l'adresse MAC de la machine."""
-    try:
-        mac_address = os.popen("getmac").read().splitlines()[0].split()[0]
-        return mac_address.upper()
-    except Exception as e:
-        print(f"Erreur : Impossible de récupérer l'adresse MAC. Détails : {e}")
-        return None
-
 def check_mac_address(license_mac):
-    """Vérifie si l'adresse MAC correspond à celle du client."""
-    client_mac = get_mac_address()
-    if not client_mac:
-        print("Erreur : Impossible de récupérer l'adresse MAC de l'ordinateur.")
-        return False
-    return client_mac == license_mac
+    """Vérifie si l'adresse MAC correspond à l'adresse MAC fixe."""
+    fixed_mac_address = "E4-42-A6-3A-AC"
+    return license_mac == fixed_mac_address
 
 def check_serial_number(license_serial):
     """Vérifie si le numéro de série de l'ordinateur correspond à celui de la licence."""
