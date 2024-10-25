@@ -106,10 +106,17 @@ def is_license_valid():
         print("Erreur : Le fichier de licence n'existe pas.")
         return False
 
+    # Vérifiez si le fichier est déjà déchiffré
     with open(license_file, 'r') as f:
-        encrypted_license_content = f.read().strip()
-    
-    license_content = encrypted_license_content
+        first_line = f.readline().strip()
+        # Si le fichier commence par un certain préfixe, il a déjà été déchiffré
+        if first_line.startswith("A"):  # Remplacez "A" par le préfixe que vous avez utilisé
+            print("Le fichier de licence a déjà été déchiffré.")
+            license_content = first_line  # Utilisez la première ligne comme contenu de licence
+        else:
+            encrypted_license_content = f.read().strip()
+            license_content = decrypt_license(encrypted_license_content)
+
     validity_days, license_serial, license_mac, license_date, license_user = parse_license(license_content)
     print(f"Licence : jours de validité = {validity_days}, numéro de série = {license_serial}, adresse MAC = {license_mac}, date de licence = {license_date}, utilisateur = {license_user}")
 
@@ -144,7 +151,7 @@ def is_license_valid():
 if __name__ == "__main__":
     for counter in range(1, 5):
         print(f"Vérification de la licence avec le compteur : {counter}")
-        if is_license_valid(counter):
+        if is_license_valid():
             print("Licence est valide.")
         else:
             print("Licence est invalide.")
