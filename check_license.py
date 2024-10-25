@@ -109,7 +109,7 @@ def is_license_valid():
     with open(license_file, 'r') as f:
         encrypted_license_content = f.read().strip()
     
-    license_content = decrypt_license(encrypted_license_content)
+    license_content = encrypted_license_content
     validity_days, license_serial, license_mac, license_date, license_user = parse_license(license_content)
     print(f"Licence : jours de validité = {validity_days}, numéro de série = {license_serial}, adresse MAC = {license_mac}, date de licence = {license_date}, utilisateur = {license_user}")
 
