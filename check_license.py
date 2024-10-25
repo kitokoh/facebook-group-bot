@@ -21,15 +21,14 @@ def generate_license_with_prefix(license_code, counter):
     prefix = f"A{counter}9"  # Format du préfixe
     return f"{prefix}{license_code}"
 
-def get_license_file(counter):
-    """Vérifie si le fichier de licence est dans le répertoire courant, au-dessus ou au-dessus du parent."""
+def get_license_file():
+    """Vérifie si le fichier de licence python.txt est dans le répertoire courant, au-dessus ou au-dessus du parent."""
     current_dir = os.getcwd()
     parent_dir = os.path.dirname(current_dir)
     grandparent_dir = os.path.dirname(parent_dir)
 
-    # Générer le nom de fichier de licence avec le préfixe
-    license_file_name = generate_license_with_prefix('003', counter)  # '003' est un exemple
-    print(f"Tentative de recherche de : {license_file_name}")
+    # Nom du fichier de licence
+    license_file_name = "python.txt"
 
     # Vérifier les différents répertoires
     for directory in [current_dir, parent_dir, grandparent_dir]:
@@ -37,6 +36,7 @@ def get_license_file(counter):
         if os.path.exists(license_path):
             return license_path
     
+    print("Erreur : Le fichier de licence python.txt n'a pas été trouvé.")
     return None
 
 def parse_license(license_str):
