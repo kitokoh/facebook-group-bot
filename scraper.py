@@ -2,9 +2,9 @@ import os
 import json
 import random
 from dotenv import load_dotenv
-from libs.logs import logger
+from logs import logger
 from time import sleep
-from libs.automate import WebScraping
+from scraping_manager.automate import WebScraping
 
 # Read env vars
 load_dotenv()
