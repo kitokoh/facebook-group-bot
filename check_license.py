@@ -22,12 +22,12 @@ def parse_license(license_str):
     """Extrait les parties importantes de la licence et les valide."""
     print(f"Tentative d'analyse de la licence : {license_str}")
     
-    # Vérification du format de la licence avec regex
-    match = re.match(r'^(A1a9)(\d{3})([A-Z0-9]+):([A-F0-9-]{14})(\d{12})(\w+)$', license_str)
+    # Modification de la regex pour accepter 'To be filled by O.E.M.' comme numéro de série valide
+    match = re.match(r'^(A1a9)(\d{3})([A-Z0-9 ]+):([A-F0-9-]{14})(\d{12})(\w+)$', license_str)
     if match:
         prefix = match.group(1)
         validity_days = int(match.group(2))
-        serial_number = match.group(3)
+        serial_number = match.group(3).strip()  # Utilisation de strip pour enlever les espaces superflus
         mac_address = match.group(4)
         date_str = match.group(5)
         user_identifier = match.group(6)
@@ -70,7 +70,7 @@ def get_serial_number():
     except subprocess.CalledProcessError as e:
         print(f"Erreur : Impossible de récupérer le numéro de série avec PowerShell. Détails : {e}")
     
-    return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else "To be filled by O.E.M."
+    return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else None
 
 def check_mac_address(license_mac):
     """Vérifie si l'adresse MAC correspond à l'adresse MAC fixe."""
@@ -80,9 +80,9 @@ def check_mac_address(license_mac):
 def check_serial_number(license_serial):
     """Vérifie si le numéro de série de l'ordinateur correspond à celui de la licence."""
     serial_number = get_serial_number()
-    # Accepter le numéro de série par défaut
-    if license_serial == "To be filled by O.E.M." or serial_number == "To be filled by O.E.M.":
-        return True
+    if serial_number is None:
+        return license_serial == "To be filled by O.E.M."  # Accepter valeur par défaut
+
     return serial_number == license_serial
 
 def is_license_valid():
@@ -113,7 +113,8 @@ def is_license_valid():
 
     if not check_serial_number(license_serial):
         print("Erreur : Le numéro de série ne correspond pas.")
-        return False
+        if license_serial != "To be filled by O.E.M.":
+            return False
 
     if not check_mac_address(license_mac):
         print("Erreur : L'adresse MAC ne correspond pas.")
