@@ -22,13 +22,13 @@ def parse_license(license_str):
     """Extrait les parties importantes de la licence et les valide."""
     print(f"Tentative d'analyse de la licence : {license_str}")
 
-    # Regex to match both formats
-    match = re.match(r'^(A1a9)(\d{3})([A-Z0-9 ]+):([A-F0-9-]{14})(\d{12})(\w*)$', license_str)
+    # Expression régulière modifiée pour inclure la possibilité de "To be filled by O.E.M." sans espaces
+    match = re.match(r'^(A1a9)(\d{3})([A-Za-z0-9 ]+|To be filled by O\.E\.M\.):([A-F0-9-]{14})(\d{12})(\w+)$', license_str)
 
     if match:
         prefix = match.group(1)
         validity_days = int(match.group(2))
-        serial_number = match.group(3).strip()  # Serial number or "To be filled by O.E.M."
+        serial_number = match.group(3).strip()
         mac_address = match.group(4)
         date_str = match.group(5)
         user_identifier = match.group(6)
@@ -46,7 +46,7 @@ def parse_license(license_str):
             return None, None, None, None, None, None
 
         return validity_days, prefix, serial_number, mac_address, license_date, user_identifier
-    print("Erreur : Format de licence invalide. Format attendu: A1a9<valeurs>:<MAC>:<date>:<utilisateur>")
+    print(f"Erreur : Format de licence invalide. Format attendu: A1a9<valeurs>:<MAC>:<date>:<utilisateur>")
     return None, None, None, None, None, None
 
 def get_serial_number():
