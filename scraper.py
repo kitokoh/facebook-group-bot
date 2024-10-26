@@ -20,7 +20,7 @@ class Scraper (WebScraping):
         # Files paths
         current_folder = os.path.dirname(__file__)
         parent_folder = os.path.dirname(current_folder)
-        self.data_path = os.path.join(parent_folder, "data.json")
+        self.data_path = os.path.join(current_folder, "data.json")
 
         # Read json data
         with open(self.data_path, encoding="UTF-8") as file:
