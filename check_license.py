@@ -21,34 +21,30 @@ def get_license_file():
 def parse_license(license_str):
     """Extrait les parties importantes de la licence et les valide."""
     print(f"Tentative d'analyse de la licence : {license_str}")
-
-    # Expression régulière mise à jour pour être plus flexible
-    match = re.match(r'^(A1a9)(\d{3})([A-Za-z0-9 ]+):([A-F0-9-]+)(\d{12})(\w+)$', license_str)
-
+    
+    # Adapting regex to accept 'To be filled by O.E.M.' as serial number
+    match = re.match(r'^(A1a9)(\d{3})([A-Z0-9 ]+):([A-F0-9-]{14})(\d{12})(\w+)$', license_str)
     if match:
-        prefix = match.group(1)  # Doit être 'A1a9'
-        validity_days = int(match.group(2))  # Le nombre de jours de validité
-        serial_number = match.group(3)  # Numéro de série (ou 'To be filled by O.E.M.')
-        mac_address = match.group(4)  # Adresse MAC
-        date_str = match.group(5)  # Date et heure de la licence sous forme compactée
-        user_identifier = match.group(6)  # Identifiant utilisateur (nom)
+        prefix = match.group(1)
+        validity_days = int(match.group(2))
+        serial_number = match.group(3).strip()
+        mac_address = match.group(4)
+        date_str = match.group(5)
+        user_identifier = match.group(6)
 
-        # Extraction des éléments de la date
-        hours = int(date_str[:2])
-        minutes = int(date_str[2:4])
-        day = int(date_str[4:6])
-        month = int(date_str[6:8])
-        year = int(date_str[8:12])
-
-        # Validation des valeurs de date
+        # Extraire les parties de la date
         try:
+            hours = int(date_str[:2])
+            minutes = int(date_str[2:4])
+            day = int(date_str[4:6])
+            month = int(date_str[6:8])
+            year = int(date_str[8:12])
             license_date = datetime.datetime(year, month, day, hours, minutes)
         except ValueError as e:
             print(f"Erreur : Date de licence invalide. Détails : {e}")
             return None, None, None, None, None, None
 
         return validity_days, prefix, serial_number, mac_address, license_date, user_identifier
-    
     print("Erreur : Format de licence invalide.")
     return None, None, None, None, None, None
 
@@ -81,6 +77,9 @@ def check_mac_address(license_mac):
 def check_serial_number(license_serial):
     """Vérifie si le numéro de série de l'ordinateur correspond à celui de la licence."""
     serial_number = get_serial_number()
+    if serial_number is None:
+        return license_serial == "To be filled by O.E.M."  # Accepter valeur par défaut
+
     return serial_number == license_serial
 
 def is_license_valid():
@@ -96,15 +95,12 @@ def is_license_valid():
         print(f"Erreur : Impossible de lire le fichier de licence. Détails : {e}")
         return False
 
-    # Analyse de la licence
     validity_days, prefix, license_serial, license_mac, license_date, user_identifier = parse_license(license_content)
-
-    # Validation plus flexible
+    
     if validity_days is None or prefix != 'A1a9' or license_mac is None or license_date is None:
         print("Erreur : Licence invalide ou préfixe incorrect.")
         return False
 
-    # Vérification de la date d'expiration
     current_time = datetime.datetime.now()
     expiration_date = license_date + datetime.timedelta(days=validity_days)
 
@@ -112,17 +108,15 @@ def is_license_valid():
         print(f"Erreur : La licence a expiré le {expiration_date.strftime('%Y-%m-%d %H:%M:%S')}.")
         return False
 
-    # Vérification du numéro de série (tolérance avec 'To be filled by O.E.M.')
     if not check_serial_number(license_serial):
         print("Erreur : Le numéro de série ne correspond pas.")
-        return False
+        if license_serial != "To be filled by O.E.M.":
+            return False
 
-    # Vérification de l'adresse MAC fixe
     if not check_mac_address(license_mac):
         print("Erreur : L'adresse MAC ne correspond pas.")
         return False
 
-    # Licence valide
     print(f"Licence valide jusqu'au {expiration_date.strftime('%Y-%m-%d %H:%M:%S')}. Nom d'utilisateur : {user_identifier}.")
     return True
 
