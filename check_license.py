@@ -70,7 +70,7 @@ def get_serial_number():
     except subprocess.CalledProcessError as e:
         print(f"Erreur : Impossible de récupérer le numéro de série avec PowerShell. Détails : {e}")
     
-    return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else None
+    return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else "To be filled by O.E.M."
 
 def check_mac_address(license_mac):
     """Vérifie si l'adresse MAC correspond à l'adresse MAC fixe."""
@@ -80,9 +80,9 @@ def check_mac_address(license_mac):
 def check_serial_number(license_serial):
     """Vérifie si le numéro de série de l'ordinateur correspond à celui de la licence."""
     serial_number = get_serial_number()
-    if serial_number is None:
-        return license_serial == "To be filled by O.E.M."  # Accepter valeur par défaut
-
+    # Accepter le numéro de série par défaut
+    if license_serial == "To be filled by O.E.M." or serial_number == "To be filled by O.E.M.":
+        return True
     return serial_number == license_serial
 
 def is_license_valid():
@@ -107,14 +107,13 @@ def is_license_valid():
     current_time = datetime.datetime.now()
     expiration_date = license_date + datetime.timedelta(days=validity_days)
 
-    if current_time > expiration_date:
+    if current_time > expiration_date: 
         print(f"Erreur : La licence a expiré le {expiration_date.strftime('%Y-%m-%d %H:%M:%S')}.")
         return False
 
     if not check_serial_number(license_serial):
         print("Erreur : Le numéro de série ne correspond pas.")
-        if license_serial != "To be filled by O.E.M.":
-            return False
+        return False
 
     if not check_mac_address(license_mac):
         print("Erreur : L'adresse MAC ne correspond pas.")
