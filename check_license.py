@@ -22,7 +22,7 @@ def parse_license(license_str):
     """Extrait les parties importantes de la licence et les valide."""
     print(f"Tentative d'analyse de la licence : {license_str}")
     
-    # Modification de la regex pour accepter 'To be filled by O.E.M.' comme numéro de série valide
+    # Modification de la regex pour accepter les espaces dans "To be filled by O.E.M."
     match = re.match(r'^(A1a9)(\d{3})([A-Z0-9 ]+):([A-F0-9-]{14})(\d{12})(\w+)$', license_str)
     if match:
         prefix = match.group(1)
@@ -70,7 +70,7 @@ def get_serial_number():
     except subprocess.CalledProcessError as e:
         print(f"Erreur : Impossible de récupérer le numéro de série avec PowerShell. Détails : {e}")
     
-    return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else None
+    return serial_number if serial_number and "To be filled by O.E.M." not in serial_number else "To be filled by O.E.M."
 
 def check_mac_address(license_mac):
     """Vérifie si l'adresse MAC correspond à l'adresse MAC fixe."""
