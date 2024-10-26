@@ -95,8 +95,7 @@ class Scraper (WebScraping):
 
         # Set groups page
         logger.info("Searching groups...")
-        search_page = f"https://www.facebook.com/groups/search/groups/?q={
-            keyword}"
+        search_page = f"https://www.facebook.com/groups/search/groups/?q={keyword}"
         self.set_page(search_page)
         sleep(3)
         self.refresh_selenium()
